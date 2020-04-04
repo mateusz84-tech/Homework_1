@@ -1,5 +1,6 @@
 package pl.coderslab.beans;
 
+
 import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
