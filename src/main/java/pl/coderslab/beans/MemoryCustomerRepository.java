@@ -24,8 +24,8 @@ public class MemoryCustomerRepository implements CustomerRepository {
     }
 
     @Override
-    public void removeCustomer(Customer customer) {
-        customerList.remove(customer);
+    public void removeCustomer(int id) {
+        customerList.remove(id);
         customerLogger.log();
 
     }
